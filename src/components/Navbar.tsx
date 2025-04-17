@@ -7,7 +7,6 @@ import {
   Layers,
   LifeBuoy,
   Menu,
-  ShieldX,
   Sparkles,
   X,
 } from "lucide-react";

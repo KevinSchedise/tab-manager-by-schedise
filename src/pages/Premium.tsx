@@ -8,18 +8,17 @@ import {
   type PricingTier,
 } from "@/components/ui/creative-pricing";
 import {
+  Bookmark,
   Check,
   ChevronRight,
   Clock,
-  Share2,
-  Bookmark,
   Download,
-  Settings,
-  Infinity,
   Folders,
+  Infinity,
+  Settings,
+  Share2,
   Sparkles,
   X,
-  XCircle,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 

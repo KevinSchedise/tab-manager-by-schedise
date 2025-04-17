@@ -3,62 +3,20 @@ import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
-import { GridPattern } from "@/components/ui/grid-pattern";
 import {
-  Group,
-  Search,
+  ChevronRight,
   Clock,
   Download,
-  Tag,
-  LineChart,
-  Lock,
-  MousePointer,
-  Maximize2,
-  Folders,
-  Sparkles,
-  Zap,
+  Group,
   History,
-  Bookmark,
-  Settings,
   Layout,
-  Share2,
-  Trash2,
-  ChevronRight,
+  Maximize2,
+  Search,
+  Sparkles,
+  Tag,
 } from "lucide-react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-
-const BackgroundGrid = ({
-  pattern,
-  size,
-}: {
-  pattern?: [number, number][];
-  size?: number;
-}) => {
-  const p =
-    pattern ??
-    ([
-      [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
-      [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
-      [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
-      [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
-      [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
-    ] as [number, number][]);
-  return (
-    <div className="pointer-events-none absolute left-1/2 top-0 -ml-20 -mt-2 h-full w-full [mask-image:linear-gradient(white,transparent)]">
-      <div className="absolute inset-0 bg-gradient-to-r [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] from-zinc-100/30 to-zinc-300/30 opacity-100">
-        <GridPattern
-          width={size ?? 20}
-          height={size ?? 20}
-          x="-12"
-          y="4"
-          squares={p}
-          className="absolute inset-0 h-full w-full mix-blend-overlay stroke-black/10 fill-black/10"
-        />
-      </div>
-    </div>
-  );
-};
 
 const Features = () => {
   useEffect(() => {

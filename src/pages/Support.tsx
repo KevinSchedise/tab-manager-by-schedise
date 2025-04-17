@@ -1,19 +1,17 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import FAQ from "@/components/FAQ";
-import SupportKnowledgeBase from "@/components/SupportKnowledgeBase";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
 import Banner from "@/components/Banner";
+import FAQ from "@/components/FAQ";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import SupportKnowledgeBase from "@/components/SupportKnowledgeBase";
+import { GridPattern } from "@/components/ui/grid-pattern";
 import {
+  FileQuestion,
   HelpCircle,
   Mail,
-  Send,
-  FileQuestion,
   MessageSquare,
-  MessageCircle,
+  Send,
 } from "lucide-react";
-import { GridPattern } from "@/components/ui/grid-pattern";
+import { useEffect } from "react";
 
 const BackgroundGrid = ({
   pattern,
