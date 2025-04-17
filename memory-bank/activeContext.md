@@ -1,0 +1,11 @@
+# Active Context: Tab Manager by Schedise
+
+**Date:** [Insert Current Date]
+
+**1. Current Work Focus:** - **Task:** Transition the existing Ad Blocker website codebase into a marketing website for a new product: "Tab Manager by Schedise". - **Objective:** Update all branding (logo, favicon), content (text, features, descriptions), and metadata to accurately reflect the Tab Manager product. Initialize the Memory Bank for future development.
+
+**2. Recent Changes:** - Updated core marketing pages (`Index.tsx`, `Premium.tsx`, `About.tsx`, `GettingStarted.tsx`) with initial Tab Manager content. - Created initial Memory Bank files (`projectbrief.md`, `productContext.md`, `activeContext.md`, `systemPatterns.md`, `techContext.md`, `progress.md`).
+
+**3. Next Steps:** - Complete the Memory Bank file creation (`projectbrief.md`, `productContext.md`). - Update `index.html` with new metadata (title, description) and favicon links. - Create and place the new favicon files in the `public/` directory. - Update the logo component (likely in `Navbar.tsx`) to use the new logo asset. - Rewrite content for `Features.tsx` to detail Tab Manager features. - Rewrite FAQs in `Support.tsx` for Tab Manager. - Review and update `Privacy.tsx` for Tab Manager context. - Review and update `Terms.tsx` for Tab Manager context. - Rename `src/pages/knowledge/Whitelisting.tsx` and update its content, or delete if irrelevant. - Update `README.md` with Tab Manager information. - Perform a final review across all files to catch any remaining "Ad Blocker" references.
+
+**4. Active Decisions & Considerations:** - **Logo/Favicon Source:** Using the circular red icon image provided by the user as the basis for the new logo and favicon. - **`Whitelisting.tsx` Handling:** Plan is to rename and repurpose the file for a relevant Tab Manager concept (e.g., grouping exceptions), pending confirmation that such a feature is desired. If not, it will be deleted. - **Extension Development:** While outlining planned extension architecture in Memory Bank, the current focus is solely on updating the _website_ codebase. - **Content Accuracy:** Ensure all described features (free and premium) align with the intended functionality of the Tab Manager product. - **Iconography:** Verify that the `lucide-react` icons used alongside features accurately represent the tab management concepts.
