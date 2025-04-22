@@ -159,7 +159,7 @@ const GettingStarted = () => {
               </h3>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CTAButton
-                  href="https://chrome.google.com/webstore"
+                  href="https://chromewebstore.google.com/detail/tab-manager-by-schedise/ohhkiogijkpcaebepjccapbfpdggkjfh"
                   variant="primary"
                   size="lg"
                 >

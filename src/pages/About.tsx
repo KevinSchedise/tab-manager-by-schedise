@@ -206,7 +206,7 @@ const About = () => {
           description="Join us in transforming browser chaos into organized productivity."
           primaryAction={{
             text: "Get Started",
-            href: "https://chrome.google.com/webstore",
+            href: "https://chromewebstore.google.com/detail/tab-manager-by-schedise/ohhkiogijkpcaebepjccapbfpdggkjfh",
           }}
           secondaryAction={{
             text: "Learn More",

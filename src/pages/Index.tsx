@@ -44,7 +44,7 @@ const Index = () => {
 
                 <div className="flex flex-col sm:flex-row mb-4 gap-4">
                   <Link
-                    to="https://chrome.google.com/webstore"
+                    to="https://chromewebstore.google.com/detail/tab-manager-by-schedise/ohhkiogijkpcaebepjccapbfpdggkjfh"
                     className="group flex items-center justify-center gap-2 py-3 text-gray-900 transition-all duration-300 hover:text-schedise-red"
                   >
                     <Download className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
@@ -240,7 +240,7 @@ const Index = () => {
           description="Join thousands of users who have transformed their browsing experience with Tab Manager."
           primaryAction={{
             text: "Add to Chrome - It's Free",
-            href: "https://chrome.google.com/webstore",
+            href: "https://chromewebstore.google.com/detail/tab-manager-by-schedise/ohhkiogijkpcaebepjccapbfpdggkjfh",
           }}
           secondaryAction={{
             text: "Learn More",
